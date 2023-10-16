@@ -1,0 +1,30 @@
+p {
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.lists {
+    color: rgb(131, 18, 175);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#header {
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+p span {
+    color: bisque;
+}
+h2 {
+    color: chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 220%;
+    text-align: center;
+}
+.bold-text {
+    font-weight: bold;
+}
+.italic-text {
+    font-style: italic;
+}
