@@ -1,7 +1,8 @@
 p {
     color: rgb(255, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font: 30px/1.5 Arial, Helvetica, sans-serif ;
+    text-indent: 35px;
+    
 }
 .lists {
     color: rgb(131, 18, 175);
@@ -27,4 +28,16 @@ h2 {
 }
 .italic-text {
     font-style: italic;
+}
+a:link {
+    color: rgb(205, 125, 19);
+}
+a:visited {
+    color: rgb(44, 165, 42);
+}
+a:hover {
+    color: blueviolet;
+}
+a:active {
+    color: aqua;
 }
