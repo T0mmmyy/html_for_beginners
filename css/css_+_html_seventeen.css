@@ -1,0 +1,10 @@
+.head {
+    background: red;
+    height: 100px;
+    width: 700px;
+    margin: 10px auto;
+    padding-top: 50px;
+    border: 6px solid burlywood;
+    border-radius: 15px;
+    opacity: 0.8;
+}
