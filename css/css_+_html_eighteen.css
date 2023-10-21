@@ -1,3 +1,6 @@
+p:first-of-type {
+    text-decoration: line-through;
+}
 .main_link {
     color: blue;
     text-decoration: none;
@@ -14,4 +17,20 @@
 }
 .main_link:active {
     text-decoration: line-through;
+}
+input {color: blue;}
+input:focus {color: red;}
+p.text:not(:empty) {
+    color: grey;
+}
+.some_text::after {
+    content: '123';
+    color: red;
+    text-decoration: line-through;
+}
+p.text:empty::after {
+    content: 124;
+}
+p.netext::first-line {
+    color: green;
 }
