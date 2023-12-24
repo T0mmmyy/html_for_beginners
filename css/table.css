@@ -1,0 +1,10 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+td {
+    padding: 10px;
+}
+.text {
+    text-align: center;
+}
